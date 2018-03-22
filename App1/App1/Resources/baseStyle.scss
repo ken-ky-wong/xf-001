@@ -1,0 +1,17 @@
+﻿@import "Resources/variables.scss";
+
+Button {
+    FontAttributes: Bold;
+    BackgroundColor: $base-color;
+    TextColor: White;
+}
+
+.items-page {
+    .item-label {
+        FontSize: 16;
+    }
+
+    .item-description {
+        FontSize: 13;
+    }
+}
