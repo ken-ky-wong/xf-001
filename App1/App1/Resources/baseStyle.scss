@@ -6,12 +6,30 @@ Button {
     TextColor: White;
 }
 
+Span {
+    TextColor: Brown;
+}
+
+Label {
+    TextColor: Purple;
+}
+
+.goddammit {
+    TextColor: Red;
+}
+
+.listViewItem {
+    Label {
+        TextColor: Green;
+    }
+}
+
 .items-page {
     .item-label {
         FontSize: 16;
     }
 
     .item-description {
-        FontSize: 13;
+        FontSize: 5;
     }
 }

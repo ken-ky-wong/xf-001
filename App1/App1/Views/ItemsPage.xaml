@@ -23,11 +23,11 @@
                  ItemSelected="OnItemSelected">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ViewCell>
+                        <ViewCell cssXF:Css.Class="listViewItem">
                             <StackLayout Padding="10">
-                                <Label cssXF:Css.Class="item-label" Text="{Binding Text}" 
+                                <Label Text="{Binding Text}" 
                        LineBreakMode="NoWrap" 
-                       Style="{DynamicResource ListItemTextStyle}" />
+                        />
                                 <Label cssXF:Css.Class="item-description" Text="{Binding Description}" 
                        LineBreakMode="NoWrap"
                        Style="{DynamicResource ListItemDetailTextStyle}" />
